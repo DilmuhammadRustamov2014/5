@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TODO LIST</h1>
+        <button class="toggle-theme" id="toggle-theme">Switch to Light Mode</button>
+        <div class="search-bar">
+            <input type="text" id="todo-input" placeholder="Search note...">
+            <button id="add-todo">SEND</button>
+        </div>
+        <ul class="todo-list" id="todo-list">
+            <li class="todo-item">
+                <label>
+                    <input type="checkbox">
+                    NOTE #1
+                </label>
+                <div class="actions">
+                    <button class="edit">✏️</button>
+                    <button class="delete">🗑️</button>
+                </div>
+            </li>
+            <li class="todo-item completed">
+                <label>
+                    <input type="checkbox" checked>
+                    NOTE #2
+                </label>
+                <div class="actions">
+                    <button class="edit">✏️</button>
+                    <button class="delete">🗑️</button>
+                </div>
+            </li>
+            <li class="todo-item">
+                <label>
+                    <input type="checkbox">
+                    NOTE #3
+                </label>
+                <div class="actions">
+                    <button class="edit">✏️</button>
+                    <button class="delete">🗑️</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
